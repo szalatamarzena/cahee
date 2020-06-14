@@ -1,0 +1,85 @@
+.contact-section{
+    background-image:url(./img/img.png),;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .contact-section-text{
+        text-align: center;
+        .contact-section-text-description{
+            padding: 20px;   
+        }
+    }
+    .contact-section-message{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        .contact-section-email{
+            display: flex;
+            flex-direction: column;
+
+            .contact-section-input{
+                width: 300px;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #00C4C4;
+                background-color: #00C4C4;
+                color: #ffffff;
+                opacity: 50%;
+                box-sizing: border-box;
+            }
+            .contact-section-textarea{
+                resize: none;
+                width: 300px;
+                height: 200px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #00C4C4;
+                background-color: #00C4C4;
+                opacity: 50%;
+                box-sizing: border-box;
+                
+            }
+            .contact-section-button{
+                align-self: flex-end;
+                background-color: #00C4C4;
+                color: #ffffff;
+                height: 45px;
+            }
+        }
+        .contact-section-adress{
+            display: flex;
+            flex-direction: column;
+
+            .contact-section-adress-title{
+                font-weight: 800;
+                margin: 8px 0;
+            }
+        }
+    }
+}
+textarea::placeholder{
+    padding: 12px 20px;
+    color: #ffffff;
+    font-family:'Raleway', sans-serif;
+    font-size:0.85rem;
+}
+
+@media (max-width: 768px){
+    
+    .contact-section-adress{
+        width: 300px;
+    background-color: rgb(0,196,196, 0.3);
+    padding: 10px;
+    margin-top: 25px;
+    }
+}

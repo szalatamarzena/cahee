@@ -1,0 +1,40 @@
+.subscribe-section{
+    background-image: url(./img/bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
+.subscribe-section-article{
+   margin-left: 100px;
+   width:600px;
+   
+}
+.subscribe-section-input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #000000;
+  opacity: 50%;
+  box-sizing: border-box;
+}
+.subscribe-section-button{
+    background-color:#96B92C;
+    color: #ffffff;
+    height: 45px;
+}
+
+@media (max-width: 768px){
+    
+    .subscribe-section-article{
+    background: rgba(255, 254, 254, 0.7);
+    margin:0 50px;
+    padding: 10px;
+    width: auto;
+    }
+}

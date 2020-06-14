@@ -1,0 +1,54 @@
+.section-aboutus{
+    
+    background: transparent radial-gradient(closest-side at 75000% 135000%, #00C4C4 0%, #00B7B7 32%, #00ADAD 68%, #009C9C 100%) 0% 0% no-repeat padding-box;
+opacity: 0.9;
+    
+    .section-aboutus-text-content{
+       
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 100px 0;
+
+        .about-img{
+            width: 50%;
+           
+            justify-content: center;
+            flex-direction: column;
+            margin: 0 100px;
+        }
+
+        .about-text{
+            text-align: justify;
+            color:#ffffff;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            flex-direction: column;
+            
+            margin: 0 100px;
+            
+        }
+        
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .section-aboutus{
+    .section-aboutus-text-content{
+        padding: 50px;
+        margin: 0 0px;
+        .about-text{
+            margin: 0 10px
+        }
+    }
+    
+    }
+    .about-img{
+        display: none;
+    }
+    
+}
